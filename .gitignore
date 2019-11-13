@@ -1,0 +1,14 @@
+# Python
+*.pyc
+__pycache__
+
+.vscode
+.idea
+venv
+# Ignore temp file
+build/
+compile.egg-info/
+dist/
+
+# macOS
+.DS_Store
