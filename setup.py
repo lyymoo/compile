@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf8") as fh:
 
 setuptools.setup(
     name="compile",
-    version="1.0.2",
+    version="1.0.3",
     author="moz",
     author_email="m@lee.mo.cn",
     description="Compiling Python source code into bytecode in production environment",
