@@ -1,14 +1,15 @@
 import setuptools
 
-description = "Compiling Python source code into bytecode in production environment"
+with open("README.md", "r", encoding="utf8") as fh:
+    long_description = fh.read()
 
 setuptools.setup(
     name="compile",
-    version="1.1.1",
+    version="1.0.0",
     author="moz",
     author_email="m@lee.mo.cn",
-    description=description,
-    long_description=description,
+    description="Compiling Python source code into bytecode in production environment",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/lyymoo/compile",
     packages=["."],
