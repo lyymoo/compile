@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf8") as fh:
 
 setuptools.setup(
     name="compile",
-    version="1.0.0",
+    version="1.0.1",
     author="moz",
     author_email="m@lee.mo.cn",
     description="Compiling Python source code into bytecode in production environment",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/lyymoo/compile",
-    packages=["."],
+    py_modules=["compile"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

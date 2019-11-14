@@ -16,11 +16,8 @@ python -m compile -h  # 帮助
 python -m compile . -b -f  # 编译当前目录
 ```
 
-## 发布到
-> pypi.org
-```shell script
-python -m pip install --user --upgrade setuptools wheel twine
-python setup.py sdist bdist_wheel
-python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
-python -m twine upload dist/*
-```
+[//]: <> (pypi.org)
+[//]: <> (python -m pip install --user --upgrade setuptools wheel twine)
+[//]: <> (python setup.py sdist bdist_wheel)
+[//]: <> (python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*)
+[//]: <> (python -m twine upload dist/*)
